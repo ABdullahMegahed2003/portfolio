@@ -1,0 +1,310 @@
+@import "tailwindcss";
+
+.container{
+width: 100%;
+}
+h1{
+ text-transform: capitalize;
+}
+.section{
+     @apply h-[100vh] w-full; 
+}
+
+
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5%;
+    
+}
+.h1 h1{
+    color:black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: solid 3px black;
+}
+.p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.logo,.logo3,main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3%;
+
+}
+.cards{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 30px 30%;
+
+}
+.card{
+width: 35%;
+position: relative;
+}
+
+.card h3 {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    letter-spacing: 5px;
+}
+.card p{
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+.logo3{
+  margin-top: 2%;
+}
+.section3{
+  
+  min-height: 100vh;
+    width: 100%;
+  }
+  .section3 .skills{
+    
+    
+  }
+.skills{
+    width: 80%;
+    margin: auto;
+}
+.skills h2{
+    margin-left: 5%;
+    font-size: 2vi;
+    margin-bottom: 2%;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+.skills .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    width: 100%;
+     flex-wrap: wrap; 
+    gap: 20px 10%;
+    margin-bottom: 2%;
+}
+
+.skills .cards .card{
+  width: 15%;
+  height: 100px;
+}
+.skills .cards .card .img{
+  width: 100%;
+    height: 70%;
+
+}
+.skills .cards .card .img img{
+    width: 100%;
+    height: 100%;
+}
+.skills .cards .card p{
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+  }
+  .skills .cards .card svg{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .section4{
+  min-height: 100vh;
+    width: 100%;
+  }
+  .section4 .img{
+    height: 30vh;
+    background-image: url(../img/image\ 12.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4 .btn{
+  
+    height: 10vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    left: 50%;
+    bottom: -100%;
+    transform: translate(-50%, -50%);
+    transition: 1.5s;
+  }
+  
+  .card-portfolio:hover .btn{
+    
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%, -50%);
+  
+  }
+  .btn button{
+  padding: 10px 20px;
+    margin: 0 10%;
+    width: 40%;
+    border: none;
+    outline: none;
+    background-color: black;
+    border-bottom: 1px black solid;
+   border-radius: 20px;
+    text-transform: capitalize;
+    color:white;
+  }
+  .btn button:hover{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+   
+  }
+ .card-portfolio{
+   overflow:hidden;
+   position: relative;
+
+ }
+  
+.card-portfolio:hover img{
+  
+  width:5000px;
+  height: 0px;
+  transition: 2s;
+}
+
+.card-portfolio img{
+  
+  transition: 2s;
+  width: 100%;
+  height: 100%;
+}
+main p{
+  margin-top: 2%;
+  color: white;
+}
+
+/* From Uiverse.io by Madflows */ 
+button {
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+ outline: none;
+ border: 0;
+ vertical-align: middle;
+ text-decoration: none;
+ font-family: inherit;
+ font-size: 15px;
+}
+
+button.learn-more {
+ font-weight: 600;
+ color: white;
+ text-transform: uppercase;
+ padding: 1.25em 2em;
+ background:#2c6fa590;
+ border: 2px solid #2c6fa5ee;
+ border-radius: 0.75em;
+ -webkit-transform-style: preserve-3d;
+ transform-style: preserve-3d;
+ -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+ transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+button.learn-more::before {
+ position: absolute;
+ content: '';
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: #2c6ea5;
+ border-radius: inherit;
+ -webkit-box-shadow: 0 0 0 2px #2c6ea5, 0 0.625em 0 0 #2c6fa590;
+ box-shadow: 0 0 0 2px #2c6ea5, 0 0.625em 0 0 #2c6fa590;
+ -webkit-transform: translate3d(0, 0.75em, -1em);
+ transform: translate3d(0, 0.75em, -1em);
+ transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+button.learn-more:hover {
+ background: #335b92;
+ -webkit-transform: translate(0, 0.25em);
+ transform: translate(0, 0.25em);
+}
+
+button.learn-more:hover::before {
+ -webkit-box-shadow: 0 0 0 2px #274876, 0 0.5em 0 0 #27487694;
+ box-shadow: 0 0 0 2px #274876, 0 0.5em 0 0 #27487694;
+ -webkit-transform: translate3d(0, 0.5em, -1em);
+ transform: translate3d(0, 0.5em, -1em);
+}
+
+button.learn-more:active {
+ background: #335b92;
+ -webkit-transform: translate(0em, 0.75em);
+ transform: translate(0em, 0.75em);
+}
+
+button.learn-more:active::before {
+ -webkit-box-shadow: 0 0 0 2px #274876, 0 0 #27487694;
+ box-shadow: 0 0 0 2px #274876, 0 0 #27487694;
+ -webkit-transform: translate3d(0, 0, -1em);
+ transform: translate3d(0, 0, -1em);
+}
+
+  .footer{
+    width: 100%;
+    height: 24vh;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-transform: capitalize;
+}
+.img-footer{
+  cursor: pointer;
+  margin: 1% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section5 .h1{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.icon{
+    margin: 1% 0;
+    width: 11%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+/* .icon img{
+    margin:  0  4% ;
+} */

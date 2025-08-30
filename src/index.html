@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdullah Mujahid Portfolio</title>
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased">
+
+<!-- ✅ Navbar -->
+<nav class="bg-white shadow sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16 items-center">
+      <div class="flex-shrink-0 flex items-center">
+        <img src="../img/Group.svg" alt="Logo" class="h-8 w-auto">
+      </div>
+      <div class="hidden sm:flex space-x-6">
+        <a href="#about" class="text-gray-700 hover:text-indigo-600">About</a>
+        <a href="#skills" class="text-gray-700 hover:text-indigo-600">Skills</a>
+        <a href="#portfolio" class="text-gray-700 hover:text-indigo-600">Portfolio</a>
+        <a href="#contact" class="text-gray-700 hover:text-indigo-600">Contact</a>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="sm:hidden ">
+        <button id="menuBtn" class="p-2 text-gray-700 hover:text-indigo-600 focus:outline-none">
+          ☰
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="mobileMenu" class="sm:hidden hidden px-4 pb-4 space-y-2 sm: ">
+    <a href="#about" class="block text-gray-700">About</a>
+    <a href="#skills" class="block text-gray-700">Skills</a>
+    <a href="#portfolio" class="block text-gray-700">Portfolio</a>
+    <a href="#contact" class="block text-gray-700">Contact</a>
+  </div>
+</nav>
+
+<!-- ✅ Hero Section -->
+<section class="flex flex-col md:flex-row w-full min-h-[100vh]">
+  <!-- النص -->
+  <div class="w-full md:w-1/2 bg-gray-300 flex flex-col justify-center  p-8">
+    <div class="lg:ml-[10%] 2xl:ml-[10%] z-50">
+
+      <p class="capitalize text-2xl md:text-5xl mb-4">Hi, I am</p>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 lg:text-6xl z-40 text-amber-50">Abdullah Megahed</h1>
+      <p class="capitalize text-xl md:text-2xl mb-6">Front-End Developer</p>
+      <div class="flex gap-4">
+        <a href="mailto:abd0272829a@gmail.com"><img src="../img/Vector.svg" alt=""></a>
+        <img src="../img/1.svg" alt="">
+        <img src="../img/2.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- الصورة -->
+  <div class="w-full md:w-1/2 bg-gray-900 flex justify-center items-center relative p-6 h lg:w-[50%]">
+    <div class="bg-gray-900 h-full w-[50%] absolute left-[-18%] skew-x-[-15deg]  lg:left-[-20%]
+    md:left-[-50%] md:w-[100%]" ></div>
+    <img src="../img/20.png" alt="Profile Image" class="rounded-md shadow-md max-w-full z-40 h-[100%] w-[100%]">
+  </div>
+</section>
+
+<!-- ✅ About Section -->
+<section id="about" class="py-16 text-center">
+  <h2 class="text-3xl font-bold uppercase mb-6">About Me</h2>
+  <p class="max-w-2xl mx-auto text-gray-600 mb-8">
+    Completed Front End Development training at NTI, gaining hands-on experience with HTML, CSS, JavaScript, and modern frameworks.
+  </p>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+    <div class="p-6 border rounded-lg shadow bg-white">
+      <img src="../img/136378-200 1 (1).svg" class="mx-auto mb-4" alt="">
+      <h3 class="text-xl font-bold mb-2">Design</h3>
+      <p>I can design websites based on your needs and suggestions, from scratch with professional consulting.</p>
+    </div>
+    <div class="p-6 border rounded-lg shadow bg-white">
+      <img src="../img/maintenance--v3 1.svg" class="mx-auto mb-4" alt="">
+      <h3 class="text-xl font-bold mb-2">Development</h3>
+      <p>I can develop clean, responsive, and optimized websites using modern technologies.</p>
+    </div>
+    <div class="p-6 border rounded-lg shadow bg-white">
+      <img src="../img/img_533288 1.svg" class="mx-auto mb-4" alt="">
+      <h3 class="text-xl font-bold mb-2">Maintenance</h3>
+      <p>I provide ongoing maintenance, updates, and improvements to ensure long-term performance.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ Skills Section -->
+<section id="skills" class="py-16 bg-gray-100 text-center">
+  <h2 class="text-3xl font-bold uppercase mb-10">Skills</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 max-w-6xl mx-auto">
+    <div><img src="../img/html.svg" class="mx-auto h-16"><p>HTML5</p></div>
+    <div><img src="../img/css.svg" class="mx-auto h-16"><p>CSS3</p></div>
+    <div><img src="../img/tailwind-css-svgrepo-com.svg" class="mx-auto h-16"><p>Tailwind</p></div>
+    <div><img src="../img/js.svg" class="mx-auto h-16"><p>JavaScript</p></div>
+    <div><img src="../img/react.svg" class="mx-auto h-16"><p>React</p></div>
+    <div><img src="../img/boot.svg" class="mx-auto h-16"><p>Bootstrap</p></div>
+    <div><img src="../img/figma.svg" class="mx-auto h-16"><p>Figma</p></div>
+    <div><img src="../img/php-svgrepo-com.svg" class="mx-auto h-16"><p>PHP</p></div>
+    <div><img src="../img/mysql-logo-svgrepo-com.svg" class="mx-auto h-16"><p>MySQL</p></div>
+    <div><img src="../img/laravel-2.svg" class="mx-auto h-16"><p>Laravel</p></div>
+  </div>
+</section>
+
+<!-- ✅ Portfolio Section -->
+<section id="portfolio " class="section4 pb-16 bg-gray-900 text-white">
+  <div class="img">
+                
+    <h2 class="text-3xl font-bold uppercase text-center mb-10">Portfolio</h2>
+            </div>
+  <div class="cards-portfolio grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto mt-[2%]">
+   
+<div class="card-portfolio">
+                    <div class="btn"> <button onclick="cilc()">designeg</button> <button onclick="cil()">coded</button></div>
+                    <img src="../img/صورة واتساب بتاريخ 2025-08-11 في 14.29.18_82ee369d.jpg" alt="" srcset="">
+                  </div>
+                  <div class="card-portfolio">
+                    <div class="btn"> <button onclick="cilc()">designeg</button> <button onclick="cil()">coded</button></div>
+                    <img src="../img/صورة واتساب بتاريخ 2025-08-11 في 14.29.17_587d5bcf.jpg"
+                    alt="" srcset=""> </div>
+                    <div class="card-portfolio"> 
+                  <div class="btn"> <button onclick="cilc()">designeg</button> <button onclick="cil()">coded</button></div>
+                  <img src="../img/صورة واتساب بتاريخ 2025-08-11 في 14.29.17_5666f5e2.jpg"
+                  alt="" srcset=""> </div>
+                  <div class="card-portfolio"> 
+                  <div class="btn"> <button onclick="cilc()">designeg</button> <button onclick="cil()">coded</button></div>
+                  <img src="../img/صورة واتساب بتاريخ 2025-08-11 في 15.02.46_d2dd92bb.jpg"
+                  alt="" srcset=""> </div>
+                  <div class="card-portfolio"> 
+                  <div class="btn"> <button onclick="cilc()">designeg</button> <button onclick="cil()">coded</button></div>
+                  <img src="../img/صورة واتساب بتاريخ 2025-08-11 في 15.03.04_8d2826bf.jpg"
+                  alt="" srcset=""> </div>
+                  <div class="card-portfolio">
+                  <div class="btn"> <button onclick="cilc()">designeg</button> <button onclick="cil()">coded</button></div>
+                   <img src="../img/صورة واتساب بتاريخ 2025-08-11 في 15.04.27_f378677a.jpg"
+                        alt="" srcset=""> </div>
+  </div>
+</section>
+
+<!-- ✅ Contact Section -->
+<section id="contact" class="py-16 text-center ">
+  <h2 class="text-3xl font-bold uppercase mb-6">Contact</h2>
+  <p class="max-w-2xl mx-auto text-gray-600 mb-8">
+    Feel free to reach out for collaborations or just a friendly hello 👋
+  </p>
+  <form class="w-full lg:w-[100%] max-w-md mx-auto flex flex-col gap-4">
+    <input type="text" placeholder="Your Name*" class="border p-3 sm:w-[80%] lg:w-[100%]">
+    <input type="email" placeholder="Your Email*" class="border p-3 w-full sm:w-[80%] lg:w-[100%]">
+    <input type="text" placeholder="Phone Number" class="border p-3 w-full  sm:w-[80%] lg:w-[100%]">
+    <textarea placeholder="Your Message*" class="border p-3 w-full h-32 sm:w-[80%] lg:w-[100%]"></textarea>
+    <div class="flex justify-center  ">
+<!-- From Uiverse.io by Madflows --> 
+<button class="learn-more"> Learn More
+</button>
+      
+    </div>
+  </form>
+</section>
+
+<!-- ✅ Footer -->
+<footer class="bg-gray-900 text-white py-6 text-center">
+  <div class="img-footer" onclick="scrollWin()"> <img src="../img/ic_baseline-double-arrow.svg" alt="">
+                    <p>back to top</p>
+                </div>
+  <p>@2025 Abdullah Megahed - All Rights Reserved.</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+  document.getElementById("menuBtn").addEventListener("click", ()=>{
+    document.getElementById("mobileMenu").classList.toggle("hidden");
+  })
+</script>
+<script src="./min.js"></script>
+</body>
+</html>
