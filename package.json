@@ -1,6 +1,12 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+"homepage": "https://USERNAME.github.io/REPO-NAME"
+
+
+    
   }
 }
